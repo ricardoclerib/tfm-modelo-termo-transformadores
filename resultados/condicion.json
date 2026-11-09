@@ -1,0 +1,798 @@
+{
+  "transformadores": {
+    "T1": {
+      "subestacion": "S1",
+      "dias_en_el_conjunto": 422,
+      "maximo_frente_a_ronda": {
+        "dias": 178,
+        "diferencia_mediana": 2.0,
+        "proporcion_maximo_mayor": 0.6629213483146067
+      },
+      "gradiente_bobinado_aceite": {
+        "dias": 177,
+        "mediana": 0.0,
+        "invertidos": 44,
+        "proporcion_invertidos": 0.24858757062146894,
+        "minimo": -6.0,
+        "pendiente_frente_a_k2": -1.7041939365376313
+      },
+      "deriva_del_residuo": {
+        "grados_por_mes": -0.2585696343302394,
+        "error_tipico": 0.05500384280436177,
+        "estadistico_t": -4.700937628120321,
+        "cambio_en_el_periodo": -5.6657669546080704
+      },
+      "cambiador_de_tomas": {
+        "dias": 320,
+        "retrocesos_del_contador": 35,
+        "proporcion_retrocesos": 0.109717868338558,
+        "contador_actual": 20920.0,
+        "maniobras_por_anio": 47.641304347826086,
+        "anios_hasta_umbral": {
+          "300000": 5857.9,
+          "500000": 10056.0
+        }
+      },
+      "regresion_con_ambiente": {
+        "coeficiente_ambiente": 0.08186836922916087,
+        "coeficiente_carga": 13.638644022548272,
+        "correlacion_aceite_carga": 0.35551917118016146,
+        "dias": 178,
+        "coeficiente_ambiente_ronda": 0.6245400412722537,
+        "dias_ronda": 422
+      },
+      "resumen_mensual": [
+        {
+          "mes": "2024-08",
+          "dias": 14,
+          "carga_media": 0.28416,
+          "carga_maxima": 0.52222,
+          "ambiente_medio": 29.357142857142858,
+          "aceite_maximo_medio": 53.0,
+          "dias_con_maximo": 5
+        },
+        {
+          "mes": "2024-09",
+          "dias": 29,
+          "carga_media": 0.5127637931034483,
+          "carga_maxima": 0.55147,
+          "ambiente_medio": 27.344827586206897,
+          "aceite_maximo_medio": 58.2,
+          "dias_con_maximo": 10
+        },
+        {
+          "mes": "2024-10",
+          "dias": 21,
+          "carga_media": 0.5039266666666666,
+          "carga_maxima": 0.57426,
+          "ambiente_medio": 28.571428571428573,
+          "aceite_maximo_medio": 57.6,
+          "dias_con_maximo": 5
+        },
+        {
+          "mes": "2024-11",
+          "dias": 10,
+          "carga_media": 0.5277879999999999,
+          "carga_maxima": 0.59051,
+          "ambiente_medio": 27.2,
+          "aceite_maximo_medio": 58.5,
+          "dias_con_maximo": 4
+        },
+        {
+          "mes": "2024-12",
+          "dias": 16,
+          "carga_media": 0.52640875,
+          "carga_maxima": 0.55138,
+          "ambiente_medio": 28.125,
+          "aceite_maximo_medio": 60.25,
+          "dias_con_maximo": 8
+        },
+        {
+          "mes": "2025-01",
+          "dias": 26,
+          "carga_media": 0.4792476923076923,
+          "carga_maxima": 0.57987,
+          "ambiente_medio": 27.26923076923077,
+          "aceite_maximo_medio": 55.1,
+          "dias_con_maximo": 10
+        },
+        {
+          "mes": "2025-02",
+          "dias": 21,
+          "carga_media": 0.4706757142857143,
+          "carga_maxima": 0.53267,
+          "ambiente_medio": 27.047619047619047,
+          "aceite_maximo_medio": 55.888888888888886,
+          "dias_con_maximo": 9
+        },
+        {
+          "mes": "2025-03",
+          "dias": 25,
+          "carga_media": 0.4998628,
+          "carga_maxima": 0.5684,
+          "ambiente_medio": 27.24,
+          "aceite_maximo_medio": 54.76470588235294,
+          "dias_con_maximo": 17
+        },
+        {
+          "mes": "2025-04",
+          "dias": 26,
+          "carga_media": 0.4929557692307692,
+          "carga_maxima": 0.60428,
+          "ambiente_medio": 27.5,
+          "aceite_maximo_medio": 54.8,
+          "dias_con_maximo": 10
+        },
+        {
+          "mes": "2025-05",
+          "dias": 24,
+          "carga_media": 0.4410075,
+          "carga_maxima": 0.51603,
+          "ambiente_medio": 26.916666666666668,
+          "aceite_maximo_medio": 55.166666666666664,
+          "dias_con_maximo": 12
+        },
+        {
+          "mes": "2025-06",
+          "dias": 19,
+          "carga_media": 0.443241052631579,
+          "carga_maxima": 0.54465,
+          "ambiente_medio": 26.842105263157894,
+          "aceite_maximo_medio": 56.0,
+          "dias_con_maximo": 10
+        },
+        {
+          "mes": "2025-07",
+          "dias": 11,
+          "carga_media": 0.4929072727272727,
+          "carga_maxima": 0.53203,
+          "ambiente_medio": 27.545454545454547,
+          "aceite_maximo_medio": 52.666666666666664,
+          "dias_con_maximo": 3
+        },
+        {
+          "mes": "2025-08",
+          "dias": 14,
+          "carga_media": 0.5189914285714285,
+          "carga_maxima": 0.54701,
+          "ambiente_medio": 27.214285714285715,
+          "aceite_maximo_medio": 56.2,
+          "dias_con_maximo": 5
+        },
+        {
+          "mes": "2025-09",
+          "dias": 26,
+          "carga_media": 0.4853153846153846,
+          "carga_maxima": 0.55023,
+          "ambiente_medio": 27.346153846153847,
+          "aceite_maximo_medio": 56.6,
+          "dias_con_maximo": 10
+        },
+        {
+          "mes": "2025-10",
+          "dias": 18,
+          "carga_media": 0.5281511111111111,
+          "carga_maxima": 0.62006,
+          "ambiente_medio": 28.5,
+          "aceite_maximo_medio": 56.4,
+          "dias_con_maximo": 5
+        },
+        {
+          "mes": "2025-11",
+          "dias": 23,
+          "carga_media": 0.6037352173913044,
+          "carga_maxima": 0.64396,
+          "ambiente_medio": 29.043478260869566,
+          "aceite_maximo_medio": 57.6,
+          "dias_con_maximo": 10
+        },
+        {
+          "mes": "2025-12",
+          "dias": 21,
+          "carga_media": 0.5670880952380952,
+          "carga_maxima": 0.63873,
+          "ambiente_medio": 28.523809523809526,
+          "aceite_maximo_medio": 59.125,
+          "dias_con_maximo": 8
+        },
+        {
+          "mes": "2026-01",
+          "dias": 22,
+          "carga_media": 0.5656,
+          "carga_maxima": 0.64319,
+          "ambiente_medio": 27.636363636363637,
+          "aceite_maximo_medio": 58.0,
+          "dias_con_maximo": 9
+        },
+        {
+          "mes": "2026-02",
+          "dias": 15,
+          "carga_media": 0.566058,
+          "carga_maxima": 0.60709,
+          "ambiente_medio": 27.466666666666665,
+          "aceite_maximo_medio": 56.2,
+          "dias_con_maximo": 10
+        },
+        {
+          "mes": "2026-03",
+          "dias": 6,
+          "carga_media": 0.546955,
+          "carga_maxima": 0.59023,
+          "ambiente_medio": 28.333333333333332,
+          "aceite_maximo_medio": 58.0,
+          "dias_con_maximo": 2
+        },
+        {
+          "mes": "2026-04",
+          "dias": 11,
+          "carga_media": 0.6091345454545455,
+          "carga_maxima": 0.65929,
+          "ambiente_medio": 29.90909090909091,
+          "aceite_maximo_medio": 57.857142857142854,
+          "dias_con_maximo": 7
+        },
+        {
+          "mes": "2026-05",
+          "dias": 19,
+          "carga_media": 0.5975010526315789,
+          "carga_maxima": 0.63816,
+          "ambiente_medio": 28.210526315789473,
+          "aceite_maximo_medio": 58.857142857142854,
+          "dias_con_maximo": 7
+        },
+        {
+          "mes": "2026-06",
+          "dias": 5,
+          "carga_media": 0.579654,
+          "carga_maxima": 0.63612,
+          "ambiente_medio": 28.6,
+          "aceite_maximo_medio": 59.0,
+          "dias_con_maximo": 2
+        }
+      ]
+    },
+    "T2": {
+      "subestacion": "S1",
+      "dias_en_el_conjunto": 400,
+      "maximo_frente_a_ronda": {
+        "dias": 167,
+        "diferencia_mediana": 2.0,
+        "proporcion_maximo_mayor": 0.7125748502994012
+      },
+      "gradiente_bobinado_aceite": {
+        "dias": 167,
+        "mediana": 2.0,
+        "invertidos": 33,
+        "proporcion_invertidos": 0.19760479041916168,
+        "minimo": -32.0,
+        "pendiente_frente_a_k2": -3.453880647498077
+      },
+      "deriva_del_residuo": {
+        "grados_por_mes": -0.15721737473092431,
+        "error_tipico": 0.04917995381129206,
+        "estadistico_t": -3.196777600365011,
+        "cambio_en_el_periodo": -3.4449405041237355
+      },
+      "cambiador_de_tomas": {
+        "dias": 302,
+        "retrocesos_del_contador": 35,
+        "proporcion_retrocesos": 0.11627906976744186,
+        "contador_actual": 224904.0,
+        "maniobras_por_anio": 49.21808510638298,
+        "anios_hasta_umbral": {
+          "300000": 1525.8,
+          "500000": 5589.3
+        }
+      },
+      "regresion_con_ambiente": {
+        "coeficiente_ambiente": 0.13484480256327286,
+        "coeficiente_carga": 11.469787242589293,
+        "correlacion_aceite_carga": 0.36255458467624657,
+        "dias": 167,
+        "coeficiente_ambiente_ronda": 0.491009240563818,
+        "dias_ronda": 400
+      },
+      "resumen_mensual": [
+        {
+          "mes": "2024-08",
+          "dias": 14,
+          "carga_media": 0.282405,
+          "carga_maxima": 0.50797,
+          "ambiente_medio": 29.357142857142858,
+          "aceite_maximo_medio": 52.2,
+          "dias_con_maximo": 5
+        },
+        {
+          "mes": "2024-09",
+          "dias": 29,
+          "carga_media": 0.4997789655172414,
+          "carga_maxima": 0.55782,
+          "ambiente_medio": 27.344827586206897,
+          "aceite_maximo_medio": 53.8,
+          "dias_con_maximo": 10
+        },
+        {
+          "mes": "2024-10",
+          "dias": 20,
+          "carga_media": 0.503709,
+          "carga_maxima": 0.57155,
+          "ambiente_medio": 28.8,
+          "aceite_maximo_medio": 54.5,
+          "dias_con_maximo": 6
+        },
+        {
+          "mes": "2024-11",
+          "dias": 10,
+          "carga_media": 0.524997,
+          "carga_maxima": 0.58299,
+          "ambiente_medio": 27.2,
+          "aceite_maximo_medio": 54.5,
+          "dias_con_maximo": 4
+        },
+        {
+          "mes": "2024-12",
+          "dias": 16,
+          "carga_media": 0.521339375,
+          "carga_maxima": 0.545,
+          "ambiente_medio": 28.125,
+          "aceite_maximo_medio": 54.0,
+          "dias_con_maximo": 8
+        },
+        {
+          "mes": "2025-01",
+          "dias": 26,
+          "carga_media": 0.4743396153846154,
+          "carga_maxima": 0.57477,
+          "ambiente_medio": 27.26923076923077,
+          "aceite_maximo_medio": 52.5,
+          "dias_con_maximo": 10
+        },
+        {
+          "mes": "2025-02",
+          "dias": 21,
+          "carga_media": 0.4699966666666667,
+          "carga_maxima": 0.58232,
+          "ambiente_medio": 27.047619047619047,
+          "aceite_maximo_medio": 51.666666666666664,
+          "dias_con_maximo": 9
+        },
+        {
+          "mes": "2025-03",
+          "dias": 25,
+          "carga_media": 0.49267560000000005,
+          "carga_maxima": 0.56629,
+          "ambiente_medio": 27.12,
+          "aceite_maximo_medio": 51.111111111111114,
+          "dias_con_maximo": 18
+        },
+        {
+          "mes": "2025-04",
+          "dias": 26,
+          "carga_media": 0.4852365384615384,
+          "carga_maxima": 0.59886,
+          "ambiente_medio": 27.5,
+          "aceite_maximo_medio": 52.0,
+          "dias_con_maximo": 10
+        },
+        {
+          "mes": "2025-05",
+          "dias": 11,
+          "carga_media": 0.45132272727272726,
+          "carga_maxima": 0.51358,
+          "ambiente_medio": 26.636363636363637,
+          "aceite_maximo_medio": 53.6,
+          "dias_con_maximo": 5
+        },
+        {
+          "mes": "2025-06",
+          "dias": 12,
+          "carga_media": 0.45478749999999996,
+          "carga_maxima": 0.55186,
+          "ambiente_medio": 27.25,
+          "aceite_maximo_medio": 51.833333333333336,
+          "dias_con_maximo": 6
+        },
+        {
+          "mes": "2025-07",
+          "dias": 11,
+          "carga_media": 0.4873627272727273,
+          "carga_maxima": 0.52677,
+          "ambiente_medio": 27.545454545454547,
+          "aceite_maximo_medio": 50.333333333333336,
+          "dias_con_maximo": 3
+        },
+        {
+          "mes": "2025-08",
+          "dias": 14,
+          "carga_media": 0.5108842857142857,
+          "carga_maxima": 0.53117,
+          "ambiente_medio": 27.214285714285715,
+          "aceite_maximo_medio": 52.0,
+          "dias_con_maximo": 5
+        },
+        {
+          "mes": "2025-09",
+          "dias": 26,
+          "carga_media": 0.47827884615384614,
+          "carga_maxima": 0.53882,
+          "ambiente_medio": 27.346153846153847,
+          "aceite_maximo_medio": 52.7,
+          "dias_con_maximo": 10
+        },
+        {
+          "mes": "2025-10",
+          "dias": 18,
+          "carga_media": 0.5207211111111111,
+          "carga_maxima": 0.61317,
+          "ambiente_medio": 28.5,
+          "aceite_maximo_medio": 54.8,
+          "dias_con_maximo": 5
+        },
+        {
+          "mes": "2025-11",
+          "dias": 24,
+          "carga_media": 0.5993108333333333,
+          "carga_maxima": 0.64562,
+          "ambiente_medio": 29.0,
+          "aceite_maximo_medio": 55.5,
+          "dias_con_maximo": 10
+        },
+        {
+          "mes": "2025-12",
+          "dias": 21,
+          "carga_media": 0.5659195238095238,
+          "carga_maxima": 0.63574,
+          "ambiente_medio": 28.523809523809526,
+          "aceite_maximo_medio": 56.5,
+          "dias_con_maximo": 8
+        },
+        {
+          "mes": "2026-01",
+          "dias": 22,
+          "carga_media": 0.5568786363636363,
+          "carga_maxima": 0.62796,
+          "ambiente_medio": 27.636363636363637,
+          "aceite_maximo_medio": 54.888888888888886,
+          "dias_con_maximo": 9
+        },
+        {
+          "mes": "2026-02",
+          "dias": 14,
+          "carga_media": 0.5557971428571429,
+          "carga_maxima": 0.59702,
+          "ambiente_medio": 27.285714285714285,
+          "aceite_maximo_medio": 53.5,
+          "dias_con_maximo": 8
+        },
+        {
+          "mes": "2026-03",
+          "dias": 6,
+          "carga_media": 0.5216033333333333,
+          "carga_maxima": 0.56999,
+          "ambiente_medio": 28.333333333333332,
+          "aceite_maximo_medio": 53.5,
+          "dias_con_maximo": 2
+        },
+        {
+          "mes": "2026-04",
+          "dias": 10,
+          "carga_media": 0.612593,
+          "carga_maxima": 0.68791,
+          "ambiente_medio": 29.5,
+          "aceite_maximo_medio": 56.5,
+          "dias_con_maximo": 6
+        },
+        {
+          "mes": "2026-05",
+          "dias": 19,
+          "carga_media": 0.5981552631578948,
+          "carga_maxima": 0.64138,
+          "ambiente_medio": 28.210526315789473,
+          "aceite_maximo_medio": 56.125,
+          "dias_con_maximo": 8
+        },
+        {
+          "mes": "2026-06",
+          "dias": 5,
+          "carga_media": 0.5856399999999999,
+          "carga_maxima": 0.64033,
+          "ambiente_medio": 28.6,
+          "aceite_maximo_medio": 54.0,
+          "dias_con_maximo": 2
+        }
+      ]
+    },
+    "T3": {
+      "subestacion": "S2",
+      "dias_en_el_conjunto": 251,
+      "maximo_frente_a_ronda": {
+        "dias": 251,
+        "diferencia_mediana": 2.0,
+        "proporcion_maximo_mayor": 0.7808764940239044
+      },
+      "gradiente_bobinado_aceite": {
+        "dias": 251,
+        "mediana": 12.0,
+        "invertidos": 5,
+        "proporcion_invertidos": 0.0199203187250996,
+        "minimo": -5.0,
+        "pendiente_frente_a_k2": 4.830330789016639
+      },
+      "deriva_del_residuo": {
+        "grados_por_mes": -0.10412998222899188,
+        "error_tipico": 0.041897697048105434,
+        "estadistico_t": -2.485339041652661,
+        "cambio_en_el_periodo": -2.179066973714449
+      },
+      "cambiador_de_tomas": {
+        "dias": 251,
+        "retrocesos_del_contador": 3,
+        "proporcion_retrocesos": 0.012,
+        "contador_actual": 4670.0,
+        "maniobras_por_anio": 444.41748768472905,
+        "anios_hasta_umbral": {
+          "300000": 664.5,
+          "500000": 1114.6
+        }
+      },
+      "regresion_con_ambiente": {
+        "coeficiente_ambiente": 1.2343889387466909,
+        "coeficiente_carga": 23.301617086741935,
+        "correlacion_aceite_carga": 0.5641739802027735,
+        "dias": 251,
+        "coeficiente_ambiente_ronda": 1.1962147628621336,
+        "dias_ronda": 251
+      },
+      "resumen_mensual": [
+        {
+          "mes": "2024-08",
+          "dias": 9,
+          "carga_media": 0.6260766666666666,
+          "carga_maxima": 0.7188,
+          "ambiente_medio": 27.555555555555557,
+          "aceite_maximo_medio": 44.111111111111114,
+          "dias_con_maximo": 9
+        },
+        {
+          "mes": "2024-09",
+          "dias": 11,
+          "carga_media": 0.6637409090909091,
+          "carga_maxima": 0.76202,
+          "ambiente_medio": 27.636363636363637,
+          "aceite_maximo_medio": 45.0,
+          "dias_con_maximo": 11
+        },
+        {
+          "mes": "2024-10",
+          "dias": 6,
+          "carga_media": 0.7234950000000001,
+          "carga_maxima": 0.80288,
+          "ambiente_medio": 27.833333333333332,
+          "aceite_maximo_medio": 47.333333333333336,
+          "dias_con_maximo": 6
+        },
+        {
+          "mes": "2024-11",
+          "dias": 13,
+          "carga_media": 0.7654676923076923,
+          "carga_maxima": 0.86562,
+          "ambiente_medio": 27.692307692307693,
+          "aceite_maximo_medio": 52.69230769230769,
+          "dias_con_maximo": 13
+        },
+        {
+          "mes": "2024-12",
+          "dias": 22,
+          "carga_media": 0.7215704545454545,
+          "carga_maxima": 0.8777,
+          "ambiente_medio": 27.636363636363637,
+          "aceite_maximo_medio": 49.22727272727273,
+          "dias_con_maximo": 22
+        },
+        {
+          "mes": "2025-01",
+          "dias": 8,
+          "carga_media": 0.68514,
+          "carga_maxima": 0.83301,
+          "ambiente_medio": 26.75,
+          "aceite_maximo_medio": 48.125,
+          "dias_con_maximo": 8
+        },
+        {
+          "mes": "2025-02",
+          "dias": 11,
+          "carga_media": 0.5884181818181818,
+          "carga_maxima": 0.65379,
+          "ambiente_medio": 26.181818181818183,
+          "aceite_maximo_medio": 43.27272727272727,
+          "dias_con_maximo": 11
+        },
+        {
+          "mes": "2025-03",
+          "dias": 17,
+          "carga_media": 0.5851764705882353,
+          "carga_maxima": 0.69073,
+          "ambiente_medio": 24.58823529411765,
+          "aceite_maximo_medio": 38.11764705882353,
+          "dias_con_maximo": 17
+        },
+        {
+          "mes": "2025-04",
+          "dias": 20,
+          "carga_media": 0.5746399999999999,
+          "carga_maxima": 0.69743,
+          "ambiente_medio": 25.25,
+          "aceite_maximo_medio": 38.15,
+          "dias_con_maximo": 20
+        },
+        {
+          "mes": "2025-05",
+          "dias": 12,
+          "carga_media": 0.605005,
+          "carga_maxima": 0.74515,
+          "ambiente_medio": 26.166666666666668,
+          "aceite_maximo_medio": 38.0,
+          "dias_con_maximo": 12
+        },
+        {
+          "mes": "2025-07",
+          "dias": 4,
+          "carga_media": 0.5767825,
+          "carga_maxima": 0.63127,
+          "ambiente_medio": 23.0,
+          "aceite_maximo_medio": 37.0,
+          "dias_con_maximo": 4
+        },
+        {
+          "mes": "2025-08",
+          "dias": 22,
+          "carga_media": 0.6333286363636363,
+          "carga_maxima": 0.77579,
+          "ambiente_medio": 25.636363636363637,
+          "aceite_maximo_medio": 38.54545454545455,
+          "dias_con_maximo": 22
+        },
+        {
+          "mes": "2025-09",
+          "dias": 12,
+          "carga_media": 0.6757233333333333,
+          "carga_maxima": 0.74277,
+          "ambiente_medio": 25.833333333333332,
+          "aceite_maximo_medio": 39.166666666666664,
+          "dias_con_maximo": 12
+        },
+        {
+          "mes": "2025-11",
+          "dias": 12,
+          "carga_media": 0.7523766666666667,
+          "carga_maxima": 0.86276,
+          "ambiente_medio": 26.833333333333332,
+          "aceite_maximo_medio": 46.0,
+          "dias_con_maximo": 12
+        },
+        {
+          "mes": "2025-12",
+          "dias": 17,
+          "carga_media": 0.7524005882352941,
+          "carga_maxima": 0.87245,
+          "ambiente_medio": 28.235294117647058,
+          "aceite_maximo_medio": 49.705882352941174,
+          "dias_con_maximo": 17
+        },
+        {
+          "mes": "2026-01",
+          "dias": 18,
+          "carga_media": 0.7365838888888888,
+          "carga_maxima": 0.89454,
+          "ambiente_medio": 27.22222222222222,
+          "aceite_maximo_medio": 46.44444444444444,
+          "dias_con_maximo": 18
+        },
+        {
+          "mes": "2026-02",
+          "dias": 2,
+          "carga_media": 0.7857799999999999,
+          "carga_maxima": 0.89799,
+          "ambiente_medio": 28.5,
+          "aceite_maximo_medio": 48.0,
+          "dias_con_maximo": 2
+        },
+        {
+          "mes": "2026-03",
+          "dias": 12,
+          "carga_media": 0.7344508333333333,
+          "carga_maxima": 0.89856,
+          "ambiente_medio": 27.75,
+          "aceite_maximo_medio": 43.583333333333336,
+          "dias_con_maximo": 12
+        },
+        {
+          "mes": "2026-04",
+          "dias": 11,
+          "carga_media": 0.7655981818181818,
+          "carga_maxima": 0.9702,
+          "ambiente_medio": 27.636363636363637,
+          "aceite_maximo_medio": 47.72727272727273,
+          "dias_con_maximo": 11
+        },
+        {
+          "mes": "2026-05",
+          "dias": 12,
+          "carga_media": 0.7715774999999999,
+          "carga_maxima": 0.89173,
+          "ambiente_medio": 27.083333333333332,
+          "aceite_maximo_medio": 49.166666666666664,
+          "dias_con_maximo": 12
+        }
+      ]
+    }
+  },
+  "gases_T1": {
+    "H2": {
+      "lecturas": 400,
+      "minimo": 5.4,
+      "maximo": 250.0,
+      "mediana": 6.0
+    },
+    "CH4": {
+      "lecturas": 401,
+      "minimo": 15.3,
+      "maximo": 158.0,
+      "mediana": 141.0
+    },
+    "C2H4": {
+      "lecturas": 401,
+      "minimo": 3.6,
+      "maximo": 142.0,
+      "mediana": 14.2
+    },
+    "C2H6": {
+      "lecturas": 401,
+      "minimo": 2.39,
+      "maximo": 1420.0,
+      "mediana": 239.0
+    },
+    "CO": {
+      "lecturas": 404,
+      "minimo": 24.2,
+      "maximo": 758.0,
+      "mediana": 242.0
+    },
+    "CO2": {
+      "lecturas": 404,
+      "minimo": 1350.0,
+      "maximo": 1730.0,
+      "mediana": 1430.0
+    },
+    "C2H2": {
+      "lecturas": 27,
+      "minimo": 0.0,
+      "maximo": 0.0,
+      "mediana": 0.0
+    },
+    "C2H2_bajo_el_limite": {
+      "lecturas": 219,
+      "lecturas_de_acetileno": 246,
+      "proporcion": 0.8902439024390244
+    }
+  },
+  "ambiente_entre_subestaciones": {
+    "dias_comunes": 166,
+    "correlacion": 0.2515522321090853
+  },
+  "factor_comun_S1": {
+    "dias_comunes": 163,
+    "correlacion_residuos_T1_T2": 0.6814159623666528,
+    "meses": 19,
+    "correlacion_mensual_con_ambiente_S1": 0.2949637829047224,
+    "correlacion_mensual_con_ambiente_S2": 0.8148880319497152
+  },
+  "umbrales_maniobras": [
+    300000,
+    500000
+  ],
+  "anonimizacion": {
+    "celdas_revisadas": 39650,
+    "hallazgos": []
+  }
+}

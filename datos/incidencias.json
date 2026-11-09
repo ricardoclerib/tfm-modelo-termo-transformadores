@@ -1,0 +1,61 @@
+{
+  "umbral_horas": 5,
+  "S1": {
+    "lectura": {
+      "libros_ilegibles": [],
+      "fechas_discrepantes": 204
+    },
+    "descartes": {
+      "sin_carga": 339,
+      "sin_aceite_max": 82,
+      "sin_ambiente": 46,
+      "pocas_horas": 49,
+      "carga_fuera_de_rango": 0
+    }
+  },
+  "S2": {
+    "lectura": {
+      "libros_ilegibles": [],
+      "fechas_discrepantes": 17
+    },
+    "descartes": {
+      "sin_carga": 288,
+      "sin_aceite_max": 19,
+      "sin_ambiente": 80,
+      "pocas_horas": 0,
+      "carga_fuera_de_rango": 0
+    }
+  },
+  "conjuntos": {
+    "T1": {
+      "dias": 422,
+      "primera_fecha": "2024-08-17",
+      "ultima_fecha": "2026-06-15",
+      "dias_con_maximo": 178,
+      "dias_con_ronda": 422,
+      "dias_cobertura_completa": 173,
+      "dias_primer_periodo": 242,
+      "dias_segundo_periodo": 180
+    },
+    "T2": {
+      "dias": 400,
+      "primera_fecha": "2024-08-17",
+      "ultima_fecha": "2026-06-15",
+      "dias_con_maximo": 167,
+      "dias_con_ronda": 400,
+      "dias_cobertura_completa": 165,
+      "dias_primer_periodo": 221,
+      "dias_segundo_periodo": 179
+    },
+    "T3": {
+      "dias": 251,
+      "primera_fecha": "2024-08-17",
+      "ultima_fecha": "2026-05-16",
+      "dias_con_maximo": 251,
+      "dias_con_ronda": 251,
+      "dias_cobertura_completa": 68,
+      "dias_primer_periodo": 146,
+      "dias_segundo_periodo": 105
+    }
+  }
+}
